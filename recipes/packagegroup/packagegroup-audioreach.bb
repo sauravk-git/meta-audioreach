@@ -24,6 +24,7 @@ RDEPENDS:${PN}:append:qcom = " \
     audioreach-pal-headers \
     audioreach-pal \
     audioreach-pipewire-plugin \
+    sva-pw-test \
     audioreach-kernel-headers \
     audioreach-kernel \
     tinycompress \

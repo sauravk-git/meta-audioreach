@@ -5,7 +5,7 @@ LICENSE = "BSD-3-Clause-Clear"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=b92f4957907c1bfc5cf7bb5a7ab8cefb"
 
 SRCREV = "8ab1fa1895499604b761efb19f61cbed31fedb49"
-PV = "0.0+git"
+PV = "0.0+git${SRCPV}"
 SRC_URI = "git://github.com/Audioreach/audioreach-engine.git;protocol=https;branch=master"
 
 #https://stackoverflow.com/questions/61473077/didnt-pass-ldflags-ldflags

@@ -4,7 +4,7 @@ LICENSE = "BSD-3-Clause-Clear"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=51110a366f598bc0b8f8e59141a18efb"
 
 SRCREV = "b5587a73c25085268aad89839fea04906063385d"
-PV = "0.0+git"
+PV = "0.0+git${SRCPV}"
 SRC_URI = "git://git@github.com/Audioreach/audioreach-graphmgr.git;protocol=https;branch=master"
 SRC_URI     += "file://agm_server.service"
 SRC_URI     += "file://agm-dbus.conf"

@@ -5,7 +5,7 @@ LICENSE = "BSD-3-Clause"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=91f36d19ef812a054b22d918288de2b5"
 
 SRCREV = "f7eec1c5e5aae9be82afab2aac2f4670d674a93b"
-PV = "0.0+git"
+PV = "0.0+git${SRCPV}"
 SRC_URI = "git://github.com/AudioReach/audioreach-pipewire-plugin.git;protocol=https;branch=master"
 
 inherit autotools pkgconfig

@@ -8,7 +8,7 @@ SRCPROJECT = "git://github.com/AudioReach/audioreach-pal.git"
 SRCBRANCH  = "master"
 
 SRCREV = "2fa9b824b68f8ab4f573301820aa3c06ce1e2c83"
-PV = "0.0+git"
+PV = "0.0+git${SRCPV}"
 SRC_URI  = "${SRCPROJECT};protocol=https;branch=${SRCBRANCH}"
 
 inherit autotools pkgconfig systemd

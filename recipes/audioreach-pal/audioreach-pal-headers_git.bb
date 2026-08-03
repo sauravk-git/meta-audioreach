@@ -8,7 +8,7 @@ LIC_FILES_CHKSUM = "file://${UNPACKDIR}/${PN}-${PV}/LICENSE;md5=51110a366f598bc0
 SRCPROJECT = "git://github.com/AudioReach/audioreach-pal.git"
 SRCBRANCH  = "master"
 SRCREV     = "4a13cc426171047b00de1ad8f76d058cba89c95a"
-PV = "0.0+git"
+PV = "0.0+git${SRCPV}"
 
 SRC_URI = "${SRCPROJECT};protocol=https;branch=${SRCBRANCH};"
 S = "${UNPACKDIR}/${PN}-${PV}/inc"
